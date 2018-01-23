@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/florianorpeliere/.nvm/versions/node/v6.9.5/bin/node',
+1 verbose cli   '/Users/florianorpeliere/.nvm/versions/node/v6.9.5/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'bases' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose run-script [ 'prebases', 'bases', 'postbases' ]
+5 info lifecycle esnext-training@0.0.1~prebases: esnext-training@0.0.1
+6 silly lifecycle esnext-training@0.0.1~prebases: no script for prebases, continuing
+7 info lifecycle esnext-training@0.0.1~bases: esnext-training@0.0.1
+8 verbose lifecycle esnext-training@0.0.1~bases: unsafe-perm in lifecycle true
+9 verbose lifecycle esnext-training@0.0.1~bases: PATH: /Users/florianorpeliere/.nvm/versions/node/v6.9.5/lib/node_modules/npm/bin/node-gyp-bin:/Users/florianorpeliere/Projects/ESNext-training/node_modules/.bin:/Users/florianorpeliere/App/google-cloud-sdk/bin:/Users/florianorpeliere/.nvm/versions/node/v6.9.5/bin:/Users/florianorpeliere/App/apache-maven-3.3.9/bin:/Users/florianorpeliere/.yarn/bin:/Users/florianorpeliere/Projects/depot_tools/:/Users/florianorpeliere/anaconda/bin:/Users/florianorpeliere/.cabal/bin:/Applications/ghc-7.10.1.app/Contents/bin:/Users/florianorpeliere/Library/Android/sdk/platform-tools:/usr/local/share/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/usr/local/go/bin:
+10 verbose lifecycle esnext-training@0.0.1~bases: CWD: /Users/florianorpeliere/Projects/ESNext-training
+11 silly lifecycle esnext-training@0.0.1~bases: Args: [ '-c', 'jasmine exercises/bases/test.spec.js' ]
+12 silly lifecycle esnext-training@0.0.1~bases: Returned: code: 1  signal: null
+13 info lifecycle esnext-training@0.0.1~bases: Failed to exec bases script
+14 verbose stack Error: esnext-training@0.0.1 bases: `jasmine exercises/bases/test.spec.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/florianorpeliere/.nvm/versions/node/v6.9.5/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/florianorpeliere/.nvm/versions/node/v6.9.5/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid esnext-training@0.0.1
+16 verbose cwd /Users/florianorpeliere/Projects/ESNext-training
+17 error Darwin 16.5.0
+18 error argv "/Users/florianorpeliere/.nvm/versions/node/v6.9.5/bin/node" "/Users/florianorpeliere/.nvm/versions/node/v6.9.5/bin/npm" "run" "bases"
+19 error node v6.9.5
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error esnext-training@0.0.1 bases: `jasmine exercises/bases/test.spec.js`
+22 error Exit status 1
+23 error Failed at the esnext-training@0.0.1 bases script 'jasmine exercises/bases/test.spec.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the esnext-training package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     jasmine exercises/bases/test.spec.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs esnext-training
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls esnext-training
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
