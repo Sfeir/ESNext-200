@@ -1,4 +1,4 @@
-let shoppingCart = [
+const shoppingCart = [
   { productTitle: "Functional Programming", type: "books", amount: 10 },
   { productTitle: "Kindle", type: "eletronics", amount: 30 },
   { productTitle: "Shoes", type: "fashion", amount: 20 },
