@@ -35,6 +35,6 @@
     "rxjs": "^6.4.0"
   },
   "dependencies": {
-    "rollup": "^0.41.4"
+    "rollup": "^2.79.2"
   }
 }
